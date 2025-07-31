@@ -1,0 +1,22 @@
+{
+  "name": "traductor-websocket-server",
+  "version": "1.0.0",
+  "description": "Servidor WebSocket para traductor.hbcolorado.com",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.14.2",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["websocket", "translation", "real-time", "hbcolorado"],
+  "author": "HB Colorado",
+  "license": "MIT"
+}
